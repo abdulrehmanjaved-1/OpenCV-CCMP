@@ -1,0 +1,11 @@
+Edge detection, or edge cascading, is a crucial step in many computer vision tasks. It helps identify the boundaries of objects in an image by detecting areas of high intensity changes. The edges typically represent object boundaries, changes in surface orientation, or color intensity differences.
+
+In various applications, like object recognition, image segmentation, and computer vision tasks, detecting the edges simplifies the image while preserving its important structural details. After detecting edges, you can perform operations like:
+
+Object recognition and tracking.
+Identifying shapes or regions of interest in an image.
+Image compression and noise reduction (edges help distinguish important details).
+Preprocessing for more advanced algorithms.
+
+Edge detection simplifies images and allows you to focus on important structural details.
+cv.Canny(img, 125, 175) detects edges by applying a combination of noise reduction, gradient calculation, and thresholding, resulting in a clean edge map of the input image. The two thresholds control the sensitivity of the algorithm.

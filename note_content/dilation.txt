@@ -1,0 +1,5 @@
+Dilation expands the white areas in an image, which is useful for thickening edges, connecting disconnected areas, and filling in small gaps or holes in detected shapes.
+In your code, cv.dilate(canny, (7,7), iterations=2):
+canny: The input image (edges detected by Canny).
+(7,7): The kernel size, which defines the area around each pixel that will be used for dilation.
+iterations=2: The number of times the dilation operation is applied, making the edges grow thicker with each iteration.

@@ -1,0 +1,3 @@
+The code cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC) resizes the image to a size of 500x500 pixels.
+cv.INTER_CUBIC is a high-quality interpolation method that uses a cubic polynomial fit over 16 neighboring pixels to calculate new pixel values, resulting in smooth and high-quality image resizing.
+This method is especially useful when enlarging images because it reduces artifacts like jagged edges and blockiness.

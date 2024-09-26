@@ -1,0 +1,14 @@
+How Blending Works in Blurring:
+When you blur an image, the pixel at any given point in the image is not just replaced by its original value but instead is replaced by a weighted combination of its neighboring pixels. This process "blends" the intensity values of nearby pixels to reduce sudden changes (which define edges and fine details).
+
+Here’s how blending works in the context of blurring:
+
+Take a Neighborhood of Pixels:
+
+Imagine a grid of pixels surrounding a target pixel in the image. In blurring, the value of the target pixel is recalculated based on the intensity values of itself and its surrounding pixels.
+Weighted Average:
+
+In most types of blurring (like Gaussian blur), a kernel or filter is used to give weights to the neighboring pixels. Pixels that are closer to the target pixel are given more weight (i.e., their values are more influential), and pixels that are farther away have less weight. The target pixel’s new intensity value is then a weighted average of its neighbors, which is a form of blending.
+Result:
+
+The resulting pixel intensity is a smoothed combination of neighboring values, which causes a blending of tones or colors. This makes transitions between areas of the image softer and less distinct, thereby blurring the sharp edges.
