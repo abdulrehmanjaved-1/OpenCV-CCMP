@@ -1,0 +1,3 @@
+contours are basically boundaries of object, but not same as edges if we see in mathematical 
+point of view. 
+Contours are usefull in shape analysis and object recognition.
