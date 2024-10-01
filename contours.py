@@ -18,7 +18,7 @@ blur = cv.GaussianBlur(gray, (5,5), cv.BORDER_DEFAULT)
 cv.imshow('Blur', blur)
 
 # find the edges of the image using canny
-canny = cv.Canny(img, 125, 175)
+canny = cv.Canny(blur, 125, 175)
 cv.imshow('Canny Edges', canny)
 
 # instead of passing canny as an argument, we can pass thresholded image (which is a binary converted image)
