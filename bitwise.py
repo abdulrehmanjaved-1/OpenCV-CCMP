@@ -24,7 +24,7 @@ cv.imshow('Bitwise XOR', bitwise_xor)
 # we can minuse one image from another eg: bitwise_or - bitwise_xor = bitwise_and
 
 # bitwise NOT (inverses the image)
-bitwise_not = cv.bitwise_not(circle)
+bitwise_not = cv.bitwise_not(circle) # takes only one source image makes white to black and black to white
 cv.imshow('Bitwise NOT', bitwise_not)
 
 cv.waitKey(0)
