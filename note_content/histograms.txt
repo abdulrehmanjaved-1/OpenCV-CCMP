@@ -1,0 +1,2 @@
+Histograms allows you to analyze the distribution of pixel intensities, whether for grayscale image or for a coloured image
+, you can see bins (intensity level 0-256 of how many pixels have these intensities).
