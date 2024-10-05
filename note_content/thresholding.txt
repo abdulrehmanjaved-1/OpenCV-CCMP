@@ -1,0 +1,4 @@
+thresholding is binarization of an image and it has two types:
+simple thresholding in whichwe define and find a threshold value to make which values white 
+and which black but in adaptive thresholding we use kernel window and calculate the threshold
+value which opencv does for us using different calc methods.
