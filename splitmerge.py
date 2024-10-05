@@ -9,7 +9,7 @@ blank = np.zeros(img.shape[:2], dtype='uint8')
 cv.imshow('Blank', blank)
 
 
-# Split
+# Split color channels
 b, g, r = cv.split(img)
 
 
