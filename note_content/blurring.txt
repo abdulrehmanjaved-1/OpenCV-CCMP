@@ -1,0 +1,11 @@
+what happen in blurring:
+we first care about kernel, which is a matrix which cols and rows, and in guassianblurring something heppens(blur)
+to the middle pixel of the matrix by its surroundiung pixels. 
+
+one of the technique is #Average in which we define a kernel and that kernal compute for all pixels of an image
+by computing the true center value by avaergaing all the surroundiung pixels. The high kernel size, the image will
+be more blur.
+
+
+well, how we know which blur is good?.
+for humans may be blurring not usefull but for image processing algos, it is.
