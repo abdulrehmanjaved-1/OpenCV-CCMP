@@ -8,7 +8,6 @@ cv.imshow('Persons', img)
 # convert it to grayscale as face detection does not involve color
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray Persons', gray)
-
 # let's read the haar cascade classifier xml file
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
