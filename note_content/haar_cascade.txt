@@ -1,0 +1,8 @@
+Haar Cascade is a machine learning-based algorithm for object detection, mainly used for face detection in OpenCV.
+Haar-like Features: Rectangular patterns that measure contrasts in regions (e.g., dark eyes vs. light cheeks) to detect facial structures.
+Cascade Classifier: A series of classifiers applied in stages—early stages quickly reject non-face regions, later stages refine detection.
+Integral Image: Used for efficient calculation of Haar-like features, allowing fast detection.
+Advantages: Fast, real-time detection, pre-trained models available in OpenCV.
+Limitations: Sensitive to lighting, pose variations, and can produce false positives.
+
+note: cascade means classifier with multiple stages

@@ -3,6 +3,8 @@ import cv2 as cv
 img = cv.imread('resources/Photos/group 1.jpg')
 cv.imshow('Persons', img)
 
+
+
 # convert it to grayscale as face detection does not involve color
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray Persons', gray)
