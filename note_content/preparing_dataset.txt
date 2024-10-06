@@ -1,0 +1,3 @@
+create_train function will loop through all the images in the train folder and inside every image it is going to grab
+the face of the image(which can be found using haar cascade classifier) and resize it(can be done with cropping the rectangle
+part of the gray image) and store it in the feature array and then giving all labels corresponding to the image.
